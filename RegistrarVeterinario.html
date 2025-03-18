@@ -34,7 +34,7 @@
                       <form>
                         <div class="text-center">
                           <a href="InicioSesion.html">
-                            <img src="fotos/logo.png" class="img-fluid" alt="..." (click)="InicioSesion.html">
+                            <img src="fotos/logo.png" class="img-fluid" alt="...">
                           </a>
                         </div>
                         <div class="container">
@@ -75,7 +75,8 @@
                             <div class="col-12 mt-2 mb-3">
                               <div class="form-group">
                                 <label for="exampleInputEmail1" class="text-main fw-bold">Foto de perfil: </label>
-                                <input class="form-control" type="file" id="formFile">
+                                <input class="form-control" id="file-input" type="file">
+                                <img id="preview" src="#" alt="Vista previa de imagen">
                                </div>
                             </div>
 
@@ -85,10 +86,13 @@
                               <div class="form-group">
                                 <label for="exampleInputEmail1" class="text-main fw-bold">Especialidad: </label>
                                 <select class="form-select" aria-label="Default select example">
-                                  <option selected>Open this select menu</option>
-                                  <option value="1">One</option>
-                                  <option value="2">Two</option>
-                                  <option value="3">Three</option>
+                                  <option selected>Seleccione...</option>
+                                  <option value="1">Medicina general</option>
+                                  <option value="2">Cirugía</option>
+                                  <option value="3">Dermatología</option>
+                                  <option value="4">Cardiología</option>
+                                  <option value="5">Animales exóticos</option>
+                                  <option value="6">Diagnóstico por imagen</option>
                                 </select>
                                </div>
                             </div>
@@ -97,10 +101,11 @@
                               <div class="form-group">
                                 <label for="exampleInputEmail1" class="text-main fw-bold">Servicios ofrecidos: </label>
                                 <select class="form-select" aria-label="Default select example">
-                                  <option selected>Open this select menu</option>
-                                  <option value="1">One</option>
-                                  <option value="2">Two</option>
-                                  <option value="3">Three</option>
+                                  <option selected>Seleccione...</option>
+                                  <option value="1">Vacunaciones y desparasitaciones</option>
+                                  <option value="2">Análisis clínicos</option>
+                                  <option value="3">Asesoramiento nutricional</option>
+                                  <option value="4">Cuidados dentales</option>
                                 </select>
                                </div>
                             </div>
@@ -109,10 +114,11 @@
                               <div class="form-group">
                                 <label for="exampleInputEmail1" class="text-main fw-bold">Horarios de atención: </label>
                                 <select class="form-select" aria-label="Default select example">
-                                  <option selected>Open this select menu</option>
-                                  <option value="1">One</option>
-                                  <option value="2">Two</option>
-                                  <option value="3">Three</option>
+                                  <option selected>Seleccione...</option>
+                                  <option value="2">8am-12pm</option>
+                                  <option value="3">1pm-5pm</option>
+                                  <option value="4">1pm-7pm</option>
+                                  <option value="5">24 horas</option>
                                 </select>
                                </div>
                             </div>
@@ -136,7 +142,9 @@
                         
                       </form>
                       <div class="d-flex justify-content-center">
-                        <button type="submit" class="btn btn-main fw-bold mt-4">Registrar</button>
+                        <a href="Inicio.html">
+                          <button type="submit" class="btn btn-main fw-bold mt-4">Registrar</button>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -145,11 +153,11 @@
             </div>
           </div>
         </div>
- 
       </main>
  
       <!-- Archivo JS Bootstrap 5 -->   
       <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="registro.js"></script>
       
   </body>
 </html>
