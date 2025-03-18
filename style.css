@@ -2,6 +2,15 @@ body{
 	font-family: 'Roboto', sans-serif;
 }
 
+a{
+	text-decoration: none !important;
+}
+
+a:hover{
+	color:#43bfc2 !important;
+}
+
+
 .fondo{
 	background-color: #43bfc2;
 }
@@ -10,6 +19,7 @@ body{
 .text-main{
 	color: #155354
 }
+
 
 .border-input{
 	border-color: #d2eef2;
@@ -28,10 +38,32 @@ body{
 	color: white;	
 }
 
-a{
-	text-decoration: none !important;
+.btn-cerrar{
+	background-color: #d2eef2;
+	border-color: #d2eef2;
+	color: #155354;	
 }
 
-a:hover{
-	color:#43bfc2 !important;
+.btn-cerrar:hover{
+	background-color: #155354;
+	border-color: #155354;
+	color: white;	
+}
+
+.text-nav{
+	color:white;
+}
+
+.text-nav:hover{
+	color: #155354;
+	background-color: #d2eef2;
+}
+
+.active{
+	background-color: #d2eef2;
+	color: #155354;
+}
+.rating {
+  color: #ffc107; /* Color amarillo para las estrellas */
+  font-size: 1.5rem; /* Tamaño de las estrellas */
 }
