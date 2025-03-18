@@ -1,0 +1,32 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+.text-main{
+	color: #155354
+}
+
+.border-input{
+	border-color: #d2eef2;
+}
+
+
+.btn-main{
+	background-color: #43bfc2;
+	border-color: #43bfc2;
+	color: #155354;	
+}
+
+.btn-main:hover{
+	background-color: #155354;
+	border-color: #155354;
+	color: white;	
+}
+
+a{
+	text-decoration: none !important;
+}
+
+a:hover{
+	color:#43bfc2 !important;
+}
